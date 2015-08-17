@@ -9,7 +9,7 @@ public class TestRpn extends TestCase {
 	public void testRPN1() {
 		RPNCalc calc = new RPNCalc();
 		
-		assertEquals(5, calc.calculate("2 3 +"));
+		assertEquals(54, calc.calculate("2 3 +"));
 		
 	}
 	
